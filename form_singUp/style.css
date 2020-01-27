@@ -1,0 +1,35 @@
+form{
+	width: 600px;
+	display: flex;
+  justify-content: space-between;
+  margin: 40px auto;
+  font-family: 'Neucha', cursive;
+}
+form>input{
+	width: 25%;
+	margin-right: 10px;
+	border: none;
+	border-bottom: 1px solid #800080;
+	font-size: 12px;
+}
+form>input::placeholder{
+	padding-left: 5px;
+	color: #C0C0C0;
+  font-family: 'Neucha', cursive;
+
+}
+form>input:focus{
+	outline: none;
+}
+form>button{
+	border-radius: 24px;
+	border: none;
+	font-size: 10px;
+	color: #800080;
+	background: #c0c0c0;
+}
+
+input:disabled {
+    color: #c0c0c0;
+    background-color: transparent;
+}
